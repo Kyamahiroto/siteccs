@@ -1,0 +1,6 @@
+{
+  "name": "Instituto Cristo Servo",
+  "description": "Site institucional do Instituto Cristo Servo com portais da Comunidade Cristo Servo e Obras Sociais, estrutura pronta para tema WordPress e foco em conversão de novos membros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

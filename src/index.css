@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Poppins", system-ui, -apple-system, sans-serif;
+  --font-sans: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Official Brand Palette */
+  --color-brand-blue: #4A5EAB;
+  --color-brand-blue-hover: #3d4f94;
+  --color-brand-blue-dark: #2d3b73;
+  --color-brand-blue-deep: #1e2850;
+  --color-brand-blue-light: #6a7ec7;
+  --color-brand-blue-subtle: #edf1fa;
+  
+  --color-brand-gold: #FED096;
+  --color-brand-gold-hover: #fec27d;
+  --color-brand-gold-dark: #c98b3b;
+  --color-brand-gold-deep: #945d17;
+  --color-brand-gold-light: #ffe6c7;
+  --color-brand-gold-subtle: #fff8ef;
+}
+
+/* Custom smooth styling with Poppins */
+html, body, button, input, select, textarea {
+  font-family: var(--font-sans);
+  color-scheme: light;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif, .font-display {
+  font-family: var(--font-sans);
+}
+
+/* Print and WordPress utility alignment helpers */
+.alignwide {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignfull {
+  width: 100%;
+  max-width: 100%;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+
